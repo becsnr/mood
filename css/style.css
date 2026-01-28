@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+body {
+    background-color: #D7A369;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    gap: 20px;
+}
+
+#conteudo img {
+  filter: drop-shadow(0 10px 20px #EDD17E);
+}
+
+/* BOTÕES */
+#botoes button {
+    flex: auto;
+    margin: 5px;
+    padding: 10px;
+    width: 100px;
+    font-weight: bolder;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 2px black;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #a74d18;
+    cursor: pointer;
+}
+
+#alegriaBtn {
+    background-color: #FACC15;
+}
+#alegriaBtn:hover {
+    background-color: #FDE047;
+}
+
+#tristezaBtn {
+    background-color: #3B82F6;
+}
+#tristezaBtn:hover {
+    background-color: #60A5FA;
+}
+
+#raivaBtn {
+    background-color: #EF4444;
+}
+#raivaBtn:hover {
+    background-color: #F87171;
+}
+
+#medoBtn {
+    background-color: #8B5CF6;
+}
+#medoBtn:hover {
+    background-color: #A78BFA;
+}
+
+#ansiedadeBtn {
+    background-color: #F97316;
+}
+#ansiedadeBtn:hover {
+    background-color: #FB923C;
+}
+
+#tedioBtn {
+    background-color: #9CA3AF;
+}
+#tedioBtn:hover {
+    background-color: #D1D5DB;
+}
+
+#nojoBtn {
+    background-color: #22C55E;
+}
+#nojoBtn:hover {
+    background-color: #4ADE80;
+}
+
+#vergonhaBtn {
+    background-color: #EC4899;
+}
+#vergonhaBtn:hover {
+    background-color: #F472B6;
+}
+
+#invejaBtn {
+    background-color: #16A34A;
+}
+#invejaBtn:hover {
+    background-color: #22C55E;
+}
