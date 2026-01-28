@@ -5,6 +5,7 @@
     --fonte-titulo: "Fredoka", system-ui;
 }
 
+/* ===== MOBILE FIRST ===== */
 body {
     background-color: #D7A369;
     font-family: Arial, Helvetica, sans-serif;
@@ -12,25 +13,56 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
     gap: 20px;
 }
 
 h1 {
     font-family: var(--fonte-titulo);
     font-weight: 500;
-    font-size: 40px;
+    font-size: 32px;
+    text-align: center;
     letter-spacing: 1px;
 }
 
+#card {
+    display: block;
+    /* box-shadow: 0 10px 30px #00000014; */
+}
+
+#conteudo {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
 #conteudo img {
-  filter: drop-shadow(0 10px 20px #EDD17E);
+    width: 100%;
+    /* max-width: 280px;
+    min-width: 180px;
+    display: block;
+    margin: 0 auto; */
+    filter: drop-shadow(0 10px 20px #EDD17E);
+}
+
+#interacao {
+    text-align: center;
+}
+
+.frase {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 24px;
 }
 
 /* BOTÕES */
+#botoes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
 #botoes button {
     flex: auto;
-    margin: 5px;
     padding: 10px;
     width: 100px;
     font-weight: bolder;
@@ -103,4 +135,26 @@ h1 {
 }
 #invejaBtn:hover {
     background-color: #22C55E;
+}
+
+/* ===== DESKTOP ===== */
+@media (min-width: 768px) {
+  #card {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+
+  #conteudo {
+    text-align: left;
+    margin-bottom: 0;
+  }
+
+  #interacao {
+    text-align: left;
+  }
+
+  #botoes {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
