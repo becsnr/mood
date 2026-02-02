@@ -10,7 +10,6 @@ botoes.forEach(botao => {
         document.body.style.backgroundColor = backCor;
 
         imagem.src = imgPng;
-        imagem.style.width = '200px';
 
         console.log(emocao);
         console.log(backCor);

@@ -30,13 +30,14 @@ h1 {
 #conteudo {
     margin-bottom: 24px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #conteudo img {
-    width: 100%;
-    height: auto;
-    margin: 0 auto; 
-    display: block;
+    width: auto;
+    height: 280px;
     filter: drop-shadow(0 10px 20px #EDD17E);
 }
 
@@ -66,7 +67,7 @@ h1 {
     text-shadow: 1px 1px 2px black;
     border: none;
     border-radius: 10px;
-    box-shadow: 1px 1px 5px #a74d18;
+    box-shadow: 1px 1px 5px #00000053;
     cursor: pointer;
 }
 
