@@ -39,6 +39,7 @@ h1 {
     width: auto;
     height: 280px;
     filter: drop-shadow(0 10px 20px #EDD17E);
+    transition: filter 0.3s ease;
 }
 
 #interacao {

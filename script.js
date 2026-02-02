@@ -10,6 +10,7 @@ botoes.forEach(botao => {
         document.body.style.backgroundColor = backCor;
 
         imagem.src = imgPng;
+        imagem.style.filter = 'drop-shadow(0 10px 20px #0000005e)';
 
         console.log(emocao);
         console.log(backCor);
