@@ -42,11 +42,17 @@ h1 {
     transition: filter 0.3s ease;
 }
 
+#frase {
+    text-align: center;
+    font-size: 1.4em;
+    text-shadow: 1px 1px 1px #00000055;
+}
+
 #interacao {
     text-align: center;
 }
 
-.frase {
+.descricao {
     text-align: center;
     font-size: 16px;
     margin-bottom: 24px;
