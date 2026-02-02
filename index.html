@@ -10,7 +10,7 @@
     <div id="layout">
         <div id="card">
             <div id="conteudo">
-                <img src="imagens/emocoes.png" alt="Emoções Divertidamente">
+                <img id="imagem" src="imagens/emocoes.png" alt="Emoções Divertidamente">
             </div>
 
             <div id="interação">
@@ -18,15 +18,23 @@
                 <p class="frase">Escolha a emoção que mais se aproxima do que você sente agora.</p>
         
                 <div id="botoes">
-                    <button type="button" id="alegriaBtn">Alegria</button>
-                    <button type="button" id="tristezaBtn">Tristeza</button>
-                    <button type="button" id="raivaBtn">Raiva</button>
-                    <button type="button" id="medoBtn">Medo</button>
-                    <button type="button" id="ansiedadeBtn">Ansiedade</button>
-                    <button type="button" id="tedioBtn">Tédio</button>
-                    <button type="button" id="nojoBtn">Nojo</button>
-                    <button type="button" id="vergonhaBtn">Vergonha</button>
-                    <button type="button" id="invejaBtn">Inveja</button>
+                    <button type="button" id="alegriaBtn" data-emocao="alegria" data-img="imagens/alegria.png" data-frase="Você está radiante hoje ✨" data-cor="#FACC15">Alegria</button>
+
+                    <button type="button" id="tristezaBtn" data-emocao="tristeza" data-img="imagens/tristeza.png" data-frase="Tudo bem não estar bem 💙" data-cor="#3B82F6">Tristeza</button>
+
+                    <button type="button" id="raivaBtn" data-emocao="raiva" data-img="imagens/raiva.png" data-frase="Respira fundo, isso também passa 😡" data-cor="#EF4444">Raiva</button>
+
+                    <button type="button" id="medoBtn" data-emocao="medo" data-img="imagens/medo.png" data-frase="Você é mais forte do que imagina 💜" data-cor="#8B5CF6">Medo</button>
+
+                    <button type="button" id="ansiedadeBtn" data-emocao="ansiedade" data-img="imagens/ansiedade.png" data-frase="Vai com calma, um passo de cada vez 🧡" data-cor="#F97316">Ansiedade</button>
+
+                    <button type="button" id="tedioBtn" data-emocao="tedio" data-img="imagens/tedio.png" data-frase="Talvez seja hora de algo novo 🤍" data-cor="#9CA3AF">Tédio</button>
+
+                    <button type="button" id="nojoBtn" data-emocao="nojo" data-img="imagens/nojinho.png" data-frase="Nem tudo precisa ser engolido 💚" data-cor="#22C55E">Nojo</button>
+
+                    <button type="button" id="vergonhaBtn" data-emocao="vergonha" data-img="imagens/vergonha.png" data-frase="Você não precisa se esconder 🌸" data-cor="#EC4899">Vergonha</button>
+
+                    <button type="button" id="invejaBtn" data-emocao="inveja" data-img="imagens/inveja.png" data-frase="O seu tempo também vai chegar 🌻" data-cor="#16A34A">Inveja</button>
                 </div>
             </div>
         </div>
